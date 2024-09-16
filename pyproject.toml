@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "reminder"
+version = "0.1.0"
+description = "This is python project"
+authors = ["Misikir Markos Elwert <misikir@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+click = "^8.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+black = "^24.8.0"
+flake8 = "^7.1.1"
+pre-commit = "^3.8.0"
+tox = "^4.18.1"
+click = "^8.1.7"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"
